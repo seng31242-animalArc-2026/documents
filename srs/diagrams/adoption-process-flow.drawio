@@ -1,0 +1,176 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="ez0jaI0AcMwCEGcUFjv1">
+    <mxGraphModel dx="665" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Adoption Process Flow&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="43" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-2" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.461;exitY=0.839;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-4" value="Log application&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Assign application ID&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-6" value="Check animal availability" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="370" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-8" value="Available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-9" value="Submit adoption&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;application&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-9" target="DIYpEWZTMSlphX4nIEpn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint" />
+            <mxPoint x="330" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="sourcePoint" />
+            <mxPoint x="480" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-12" value="Review application details&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Living situation, history&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="398" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="370" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-15" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-16" value="Notify: not available" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="270" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-18" value="View alternative&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;animals&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="430" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="530" />
+              <mxPoint x="110" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.538;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="440" as="sourcePoint" />
+            <mxPoint x="560" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-21" value="Eligible?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="491" width="80" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="500" as="sourcePoint" />
+            <mxPoint x="670" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="491" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-25" value="Reject with reason&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Send notification&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="500.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="520" as="sourcePoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-27" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="558" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-28" value="Shedule home assesment&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Arrange visit date&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-29" value="Attend home visit&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Confirm environment&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-28" target="DIYpEWZTMSlphX4nIEpn-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="600" as="sourcePoint" />
+            <mxPoint x="370" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-31" value="Approve &amp;amp; shedule handover&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Update animal status&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-29" target="DIYpEWZTMSlphX4nIEpn-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="370" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.452;exitY=1.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="760" as="sourcePoint" />
+            <mxPoint x="382" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-34" value="Shedule follow-up check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="790" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="770" as="sourcePoint" />
+            <mxPoint x="260" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-36" value="Collect animal&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Sign agreement&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIYpEWZTMSlphX4nIEpn-36" target="DIYpEWZTMSlphX4nIEpn-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="770" as="sourcePoint" />
+            <mxPoint x="200" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIYpEWZTMSlphX4nIEpn-38" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="870" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
