@@ -95,14 +95,114 @@ Placeholder functions:
 - Volunteer statistics
 
 ## 2.3 User Classes and Characteristics
-| User Role | Description |
-|---|---|
-| Admin | Manages users, system data, and overall platform content |
-| Supervisor Doctor | Monitors animal cases and treatment progress |
-| Volunteer Veterinary Student | Records rescue, treatment, and handover details |
-| Donor | Supports campaigns through donations |
-| Adopter | Views and requests animal adoptions |
-| Public User | Views public information, campaigns, and awareness content |
+
+### Persona 1: Sawmi Jayasinghe , Volunteer Vet Student
+
+**Role:** A veterinary student volunteer who participates in animal rescue, treatment, follow-up care, and shift-based updates.
+
+**Goals:**
+- Record treatment details clearly during or after each shift.
+- Access previous treatment history of animals.
+- Receive emergency updates quickly.
+- Coordinate responsibilities with other volunteers.
+
+**Pain Points:**
+- Treatment updates are scattered across WhatsApp messages and paper notes.
+- Handover details may be incomplete or missed.
+- Difficult to know the latest condition of an animal.
+- Medicine availability is not always clear.
+
+**System Needs:**
+- Animal profile with treatment history.
+- Shift handover notes.
+- Emergency alert and update feature.
+- Medicine stock visibility.
+
+**Expected Benefits:**
+- Better continuity of animal care.
+- Reduced missed treatment information.
+- Faster coordination during emergencies.
+
+### Persona 2: Supervisor Doctor
+
+**Role:** A supervising veterinary doctor who guides students and monitors treatment decisions.
+
+**Goals:**
+- Review animal treatment progress.
+- Guide volunteers on proper treatment actions.
+- Monitor urgent cases and follow-up requirements.
+- Ensure treatment records are accurate.
+
+**Pain Points:**
+- Difficult to track treatment decisions from informal messages.
+- Important case updates may be delayed.
+- Previous medical history may not be easy to find.
+- Follow-up responsibility is not always clear.
+
+**System Needs:**
+- Searchable treatment records.
+- Case status tracking.
+- Ability to review and comment on animal records.
+- Emergency case visibility.
+
+**Expected Benefits:**
+- Improved clinical decision-making.
+- Better supervision of volunteer work.
+- More reliable treatment continuity.
+
+### Persona 3: Dahami Wataketiya, Society Committee Admin
+
+**Role:** A committee member responsible for managing Animal Ark operations, volunteers, donations, adoption posts, and records.
+
+**Goals:**
+- Organize animal rescue and treatment activities.
+- Maintain accurate animal, volunteer, donation, and adoption records.
+- Coordinate announcements and campaigns.
+- Track medicine and resource availability.
+
+**Pain Points:**
+- Records are distributed across paper notes, spreadsheets, and WhatsApp chats.
+- Donation and adoption information may be difficult to track.
+- Volunteer contribution records are not centralized.
+- Medicine stock uncertainty affects planning.
+
+**System Needs:**
+- Central dashboard for animals, volunteers, donations, and adoptions.
+- Medicine stock management.
+- Adoption request tracking.
+- Volunteer activity tracking.
+
+**Expected Benefits:**
+- Easier administration.
+- Better transparency in donations and adoptions.
+- Improved planning and accountability.
+
+### Persona 4: Pabasara Gunasekara,  Donor / Public User
+
+**Role:** A member of the public who supports Animal Ark through donations, adoption interest, awareness sharing, or volunteer support.
+
+**Goals:**
+- Learn about animals needing help.
+- Donate to verified needs or campaigns.
+- Request adoption information.
+- Follow Animal Ark activities and impact.
+
+**Pain Points:**
+- Limited visibility into current donation needs.
+- Adoption information may be shared informally.
+- Difficult to know the status of rescued animals.
+- Communication may depend on social media or individual contacts.
+
+**System Needs:**
+- Public animal/adoption listings.
+- Donation campaign information.
+- Simple adoption request form.
+- Updates about Animal Ark activities.
+
+**Expected Benefits:**
+- Easier public engagement.
+- Increased trust and transparency.
+- Faster adoption and donation support.
 
 ## 2.4 Operating Environment
 This section will describe the expected operating environment, including web browsers, mobile devices, and desktop devices.
