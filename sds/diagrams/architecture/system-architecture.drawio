@@ -1,0 +1,277 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="VdJIFJWH9MMsJraT4CRo">
+    <mxGraphModel dx="2562" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cJanescOG2tJoniz381H-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Client Layer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-4" value="Web Browser&lt;div&gt;Desktop / Mobile&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="145" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-5" value="Mobile Browser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-7" value="Nginx Reverse Proxy&lt;div&gt;SSL terminal&lt;/div&gt;&lt;div&gt;static files&lt;/div&gt;&lt;div&gt;routing&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Infrastructure&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.18;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-3" target="cJanescOG2tJoniz381H-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-10" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cJanescOG2tJoniz381H-9">
+          <mxGeometry x="-0.22" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.71;exitY=0.786;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-1" target="cJanescOG2tJoniz381H-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-12" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cJanescOG2tJoniz381H-11">
+          <mxGeometry x="-0.1716" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="580" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Frontend Layer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="590" width="117.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-15" value="Responsive React SPA&lt;div&gt;TailwindCSS&lt;/div&gt;&lt;div&gt;Axios&lt;/div&gt;&lt;div&gt;Socket.IO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.52;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-7" target="cJanescOG2tJoniz381H-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="600" as="sourcePoint" />
+            <mxPoint x="360" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="840" width="920" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-18" value="Node.js / Express API&lt;div&gt;REST&lt;/div&gt;&lt;div&gt;WS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Backend Layer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-20" value="&lt;b&gt;Auth Service&lt;/b&gt;&lt;div&gt;JWT&lt;/div&gt;&lt;div&gt;RBAC&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.527;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="870" as="sourcePoint" />
+            <mxPoint x="453" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-22" value="HTTP/WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cJanescOG2tJoniz381H-21">
+          <mxGeometry x="-0.384" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-24" value="&lt;b&gt;Case Service&lt;/b&gt;&lt;div&gt;Animal&lt;/div&gt;&lt;div&gt;Case&lt;/div&gt;&lt;div&gt;Treatment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-25" value="&lt;b&gt;Notification Service&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;WebSocket&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-26" value="&lt;b&gt;Report Service&lt;/b&gt;&lt;div&gt;&lt;div&gt;Analytics&lt;/div&gt;&lt;div&gt;Dshboard&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-27" value="&lt;b&gt;Donation Service&lt;/b&gt;&lt;div&gt;&lt;div&gt;Money&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Blood&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.088;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-18" target="cJanescOG2tJoniz381H-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="950" as="sourcePoint" />
+            <mxPoint x="410" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="980" />
+              <mxPoint x="110" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.368;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="990" as="sourcePoint" />
+            <mxPoint x="290" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="434" y="990" />
+              <mxPoint x="290" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="990" as="sourcePoint" />
+            <mxPoint x="450" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="940" as="sourcePoint" />
+            <mxPoint x="560" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="1000" />
+              <mxPoint x="560" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="940" as="sourcePoint" />
+            <mxPoint x="700" y="1031" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="980" />
+              <mxPoint x="700" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1250" width="350" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Data Layer&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-35" value="Redis&amp;nbsp;&lt;div&gt;Cache&lt;/div&gt;&lt;div&gt;JWT blacklist&lt;/div&gt;&lt;div&gt;pub/sub&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1330" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-36" value="&lt;div&gt;MongoDB&lt;/div&gt;&lt;div&gt;Primary document-oriented NoSQL database&lt;/div&gt;&lt;div&gt;Flexible schema&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1325" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.356;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cJanescOG2tJoniz381H-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="103" y="1090" as="sourcePoint" />
+            <mxPoint x="360" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" target="cJanescOG2tJoniz381H-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1090" as="sourcePoint" />
+            <mxPoint x="360" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1300" />
+              <mxPoint x="252" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.298;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-24" target="cJanescOG2tJoniz381H-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="1230" as="sourcePoint" />
+            <mxPoint x="270" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cJanescOG2tJoniz381H-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="1090" as="sourcePoint" />
+            <mxPoint x="360" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="375" y="1150" />
+              <mxPoint x="120" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-41" value="&lt;b&gt;Stock Service&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Medicine inventory&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cJanescOG2tJoniz381H-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="940" as="sourcePoint" />
+            <mxPoint x="580" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="960" />
+              <mxPoint x="860" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.409;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cJanescOG2tJoniz381H-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="1090" as="sourcePoint" />
+            <mxPoint x="430" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="406" y="1170" />
+              <mxPoint x="284" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1250" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;External Service&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-46" value="SMTP Provider&lt;div&gt;SendGrid&lt;/div&gt;&lt;div&gt;Password reset&lt;/div&gt;&lt;div&gt;Donation email&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1310" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-47" value="Payment Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.654;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-25" target="cJanescOG2tJoniz381H-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1310" as="sourcePoint" />
+            <mxPoint x="570" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="433" y="1210" />
+              <mxPoint x="695" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.594;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-41" target="cJanescOG2tJoniz381H-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1310" as="sourcePoint" />
+            <mxPoint x="570" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1180" />
+              <mxPoint x="310" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.706;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-26" target="cJanescOG2tJoniz381H-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1310" as="sourcePoint" />
+            <mxPoint x="570" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1190" />
+              <mxPoint x="325" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-27" target="cJanescOG2tJoniz381H-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1310" as="sourcePoint" />
+            <mxPoint x="650" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="1200" />
+              <mxPoint x="340" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJanescOG2tJoniz381H-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJanescOG2tJoniz381H-27" target="cJanescOG2tJoniz381H-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1310" as="sourcePoint" />
+            <mxPoint x="650" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
