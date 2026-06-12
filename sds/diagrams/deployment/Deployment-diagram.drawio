@@ -1,0 +1,104 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="MOTn5uwT4EGffeTD-Jon">
+    <mxGraphModel dx="950" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-3" value="&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Client machine&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Client browser&lt;/font&gt;&lt;div&gt;Admin/Volunteer (HTTPS)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="120" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-6" value="&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Reverse proxy server&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Nginx&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;SSL terminal, static assets, routing&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="400" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-9" value="&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Application server&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;React frontend&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Static build served by Express, port 3000&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="605" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-11" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Node.js/Express API&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Auth, Animal, Emergency, Adoption, Donation, Inventoey&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="705" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Notification service&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Email(SMTP), SMS(Twilio), Push(FCM)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="800" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1030" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;MongoDB&lt;/font&gt;&lt;div&gt;shelter_db, port 27017&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="1070" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-15" value="&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Database server&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JxM8-FDVJ-kinMd8Ws86-2" target="JxM8-FDVJ-kinMd8Ws86-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="630" as="sourcePoint" />
+            <mxPoint x="360" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-17" value="HTTPS: 443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JxM8-FDVJ-kinMd8Ws86-16">
+          <mxGeometry x="-0.3357" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JxM8-FDVJ-kinMd8Ws86-5" target="JxM8-FDVJ-kinMd8Ws86-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="540" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-19" value="HTTP: 3000" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JxM8-FDVJ-kinMd8Ws86-18">
+          <mxGeometry x="-0.3544" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JxM8-FDVJ-kinMd8Ws86-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="910" as="sourcePoint" />
+            <mxPoint x="436" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-21" value="REST/ JSON" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="665" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.471;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.465;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JxM8-FDVJ-kinMd8Ws86-11" target="JxM8-FDVJ-kinMd8Ws86-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="770" as="sourcePoint" />
+            <mxPoint x="520" y="860" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-24" value="Event" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JxM8-FDVJ-kinMd8Ws86-8" target="JxM8-FDVJ-kinMd8Ws86-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1040" as="sourcePoint" />
+            <mxPoint x="500" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JxM8-FDVJ-kinMd8Ws86-26" value="TCP: 27017" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JxM8-FDVJ-kinMd8Ws86-25">
+          <mxGeometry x="-0.3632" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
